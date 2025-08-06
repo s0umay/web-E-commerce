@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+  .product-card {
+    font-size: 14px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1200px) {
+  .product-card {
+    font-size: 16px;
+  }
+}
+.obj button {
+  padding: 10px 20px;
+  background-color: #5bdddbff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
