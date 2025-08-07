@@ -16127,109 +16127,116 @@ var _register = require("./Components/register/register");
 var _registerDefault = parcelHelpers.interopDefault(_register);
 var _productpage = require("./Components/productdetail/productpage");
 var _productpageDefault = parcelHelpers.interopDefault(_productpage);
+var _authContext = require("./Components/AuthContext/AuthContext");
 function App() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
-                            fileName: "src/App.jsx",
-                            lineNumber: 20,
-                            columnNumber: 42
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 20,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/prod",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productsDefault.default), {}, void 0, false, {
-                            fileName: "src/App.jsx",
-                            lineNumber: 21,
-                            columnNumber: 46
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 21,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/wishlist",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _wishlistDefault.default), {}, void 0, false, {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _authContext.AuthProvider), {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 22,
+                                columnNumber: 42
+                            }, void 0)
+                        }, void 0, false, {
                             fileName: "src/App.jsx",
                             lineNumber: 22,
-                            columnNumber: 50
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 22,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/cart",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cartDefault.default), {}, void 0, false, {
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/prod",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productsDefault.default), {}, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 23,
+                                columnNumber: 46
+                            }, void 0)
+                        }, void 0, false, {
                             fileName: "src/App.jsx",
                             lineNumber: 23,
-                            columnNumber: 46
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 23,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/login",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loginDefault.default), {}, void 0, false, {
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/wishlist",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _wishlistDefault.default), {}, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 24,
+                                columnNumber: 50
+                            }, void 0)
+                        }, void 0, false, {
                             fileName: "src/App.jsx",
                             lineNumber: 24,
-                            columnNumber: 47
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 24,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/register",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _registerDefault.default), {}, void 0, false, {
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/cart",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cartDefault.default), {}, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 25,
+                                columnNumber: 46
+                            }, void 0)
+                        }, void 0, false, {
                             fileName: "src/App.jsx",
                             lineNumber: 25,
-                            columnNumber: 50
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 25,
-                        columnNumber: 17
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/productpage",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productpageDefault.default), {}, void 0, false, {
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/login",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loginDefault.default), {}, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 26,
+                                columnNumber: 47
+                            }, void 0)
+                        }, void 0, false, {
                             fileName: "src/App.jsx",
                             lineNumber: 26,
-                            columnNumber: 53
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.jsx",
-                        lineNumber: 26,
-                        columnNumber: 17
-                    }, this)
-                ]
-            }, void 0, true, {
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/register",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _registerDefault.default), {}, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 27,
+                                columnNumber: 50
+                            }, void 0)
+                        }, void 0, false, {
+                            fileName: "src/App.jsx",
+                            lineNumber: 27,
+                            columnNumber: 17
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/productpage",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productpageDefault.default), {}, void 0, false, {
+                                fileName: "src/App.jsx",
+                                lineNumber: 28,
+                                columnNumber: 53
+                            }, void 0)
+                        }, void 0, false, {
+                            fileName: "src/App.jsx",
+                            lineNumber: 28,
+                            columnNumber: 17
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/App.jsx",
+                    lineNumber: 21,
+                    columnNumber: 13
+                }, this)
+            }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 19,
+                lineNumber: 20,
                 columnNumber: 13
             }, this)
         }, void 0, false, {
             fileName: "src/App.jsx",
-            lineNumber: 18,
+            lineNumber: 19,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "src/App.jsx",
-        lineNumber: 17,
+        lineNumber: 18,
         columnNumber: 9
     }, this);
 }
@@ -16242,7 +16249,7 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Components/Navbar/navbar":"2GMFc","./Components/footer/footer":"kdfEE","./Components/layout/layout":"2heHJ","./Components/home/home":"g6Nud","./Components/products/products":"6oBbM","react-router-dom":"fKeYf","./Components/wishlist/wishlist":"4i26e","./Components/cart/cart":"hm9uX","./Components/login/login":"6b18P","./Components/register/register":"ghAjM","./Components/productdetail/productpage":"kJmr3"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Components/Navbar/navbar":"2GMFc","./Components/footer/footer":"kdfEE","./Components/layout/layout":"2heHJ","./Components/home/home":"g6Nud","./Components/products/products":"6oBbM","react-router-dom":"fKeYf","./Components/wishlist/wishlist":"4i26e","./Components/cart/cart":"hm9uX","./Components/login/login":"6b18P","./Components/register/register":"ghAjM","./Components/productdetail/productpage":"kJmr3","./Components/AuthContext/AuthContext":"dmlI0"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -18563,8 +18570,18 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Navbar);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactRouterDom = require("react-router-dom");
+var _react = require("react");
+var _authContext = require("../AuthContext/AuthContext");
 var _navbarCss = require("./navbar.css");
+var _s = $RefreshSig$();
 function Navbar() {
+    _s();
+    const { username, logout } = (0, _react.useContext)((0, _authContext.AuthContext));
+    const [showLogout, setShowLogout] = (0, _react.useState)(false);
+    const handleLogout = ()=>{
+        logout();
+        setShowLogout(false);
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
             className: "navbar navbar-expand-lg bg-body-tertiary",
@@ -18577,35 +18594,12 @@ function Navbar() {
                         children: "Shopiee"
                     }, void 0, false, {
                         fileName: "src/Components/Navbar/navbar.jsx",
-                        lineNumber: 11,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "navbar-toggler",
-                        type: "button",
-                        "data-bs-toggle": "collapse",
-                        "data-bs-target": "#navbarSupportedContent",
-                        "aria-controls": "navbarSupportedContent",
-                        "aria-expanded": "false",
-                        "aria-label": "Toggle navigation",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            className: "navbar-toggler-icon"
-                        }, void 0, false, {
-                            fileName: "src/Components/Navbar/navbar.jsx",
-                            lineNumber: 13,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/Components/Navbar/navbar.jsx",
-                        lineNumber: 12,
+                        lineNumber: 19,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "collapse navbar-collapse",
                         id: "navbarSupportedContent",
-                        style: {
-                            alignContent: "center"
-                        },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                 className: "navbar-nav me-auto mb-2 mb-lg-0",
@@ -18616,28 +18610,10 @@ function Navbar() {
                                             to: "/",
                                             className: "nav-link",
                                             style: {
-                                                textDecoration: 'none'
+                                                textDecoration: 'none',
+                                                fontSize: "20px"
                                             },
                                             children: "Home"
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Navbar/navbar.jsx",
-                                            lineNumber: 18,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Navbar/navbar.jsx",
-                                        lineNumber: 17,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        className: "nav-item",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                            to: "/prod",
-                                            className: "nav-link",
-                                            style: {
-                                                textDecoration: 'none'
-                                            },
-                                            children: "Products"
                                         }, void 0, false, {
                                             fileName: "src/Components/Navbar/navbar.jsx",
                                             lineNumber: 24,
@@ -18647,14 +18623,38 @@ function Navbar() {
                                         fileName: "src/Components/Navbar/navbar.jsx",
                                         lineNumber: 23,
                                         columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        className: "nav-item",
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                            to: "/prod",
+                                            className: "nav-link",
+                                            style: {
+                                                textDecoration: 'none',
+                                                fontSize: "20px"
+                                            },
+                                            children: "Products"
+                                        }, void 0, false, {
+                                            fileName: "src/Components/Navbar/navbar.jsx",
+                                            lineNumber: 27,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Navbar/navbar.jsx",
+                                        lineNumber: 26,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Navbar/navbar.jsx",
-                                lineNumber: 16,
+                                lineNumber: 22,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                style: {
+                                    position: "relative",
+                                    marginRight: 20
+                                },
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                         to: "/cart",
@@ -18662,57 +18662,102 @@ function Navbar() {
                                             type: "button",
                                             className: "btn btn-outline-secondary",
                                             style: {
-                                                margin: 5,
-                                                width: 30,
-                                                height: 30,
-                                                margin: 0,
-                                                padding: 0
+                                                marginRight: 10
                                             },
                                             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                                                 src: "https://cdn-icons-png.flaticon.com/128/833/833314.png",
-                                                className: "img-thumbnail",
                                                 alt: "cart",
-                                                width: 40,
-                                                height: 40
+                                                width: 30
                                             }, void 0, false, {
                                                 fileName: "src/Components/Navbar/navbar.jsx",
-                                                lineNumber: 33,
+                                                lineNumber: 34,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "src/Components/Navbar/navbar.jsx",
-                                            lineNumber: 32,
+                                            lineNumber: 33,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/Components/Navbar/navbar.jsx",
-                                        lineNumber: 31,
+                                        lineNumber: 32,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    username ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        style: {
+                                            display: "inline-block"
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                onClick: ()=>setShowLogout(!showLogout),
+                                                className: "btn btn-outline-secondary",
+                                                children: [
+                                                    "\uD83D\uDC64 ",
+                                                    username
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/Components/Navbar/navbar.jsx",
+                                                lineNumber: 40,
+                                                columnNumber: 19
+                                            }, this),
+                                            showLogout && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                style: {
+                                                    position: "absolute",
+                                                    top: "100%",
+                                                    right: 0,
+                                                    backgroundColor: "white",
+                                                    boxShadow: "0px 2px 6px rgba(0,0,0,0.2)",
+                                                    borderRadius: "5px",
+                                                    padding: "5px 10px",
+                                                    zIndex: 100
+                                                },
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                                    onClick: handleLogout,
+                                                    className: "btn btn-link",
+                                                    style: {
+                                                        textDecoration: "none",
+                                                        color: "red",
+                                                        padding: 0
+                                                    },
+                                                    children: "Logout"
+                                                }, void 0, false, {
+                                                    fileName: "src/Components/Navbar/navbar.jsx",
+                                                    lineNumber: 57,
+                                                    columnNumber: 23
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Navbar/navbar.jsx",
+                                                lineNumber: 47,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/Navbar/navbar.jsx",
+                                        lineNumber: 39,
+                                        columnNumber: 17
+                                    }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                         to: "/login",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                             type: "button",
                                             className: "btn btn-outline-secondary",
                                             style: {
-                                                alignSelf: "center",
                                                 margin: 20
                                             },
                                             children: "Login"
                                         }, void 0, false, {
                                             fileName: "src/Components/Navbar/navbar.jsx",
-                                            lineNumber: 36,
-                                            columnNumber: 33
+                                            lineNumber: 63,
+                                            columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "src/Components/Navbar/navbar.jsx",
-                                        lineNumber: 36,
-                                        columnNumber: 15
+                                        lineNumber: 62,
+                                        columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Navbar/navbar.jsx",
-                                lineNumber: 30,
+                                lineNumber: 31,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -18722,11 +18767,10 @@ function Navbar() {
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                                         className: "form-control me-2",
                                         type: "search",
-                                        placeholder: "Search",
-                                        "aria-label": "Search"
+                                        placeholder: "Search"
                                     }, void 0, false, {
                                         fileName: "src/Components/Navbar/navbar.jsx",
-                                        lineNumber: 39,
+                                        lineNumber: 69,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -18735,38 +18779,39 @@ function Navbar() {
                                         children: "Search"
                                     }, void 0, false, {
                                         fileName: "src/Components/Navbar/navbar.jsx",
-                                        lineNumber: 40,
+                                        lineNumber: 70,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Navbar/navbar.jsx",
-                                lineNumber: 38,
+                                lineNumber: 68,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Navbar/navbar.jsx",
-                        lineNumber: 15,
+                        lineNumber: 21,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Navbar/navbar.jsx",
-                lineNumber: 10,
+                lineNumber: 18,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "src/Components/Navbar/navbar.jsx",
-            lineNumber: 9,
+            lineNumber: 17,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "src/Components/Navbar/navbar.jsx",
-        lineNumber: 8,
+        lineNumber: 16,
         columnNumber: 5
     }, this);
 }
+_s(Navbar, "bSkg9JB5pT+AME4TmcBzGlbgF/4=");
 _c = Navbar;
 var _c;
 $RefreshReg$(_c, "Navbar");
@@ -18776,7 +18821,7 @@ $RefreshReg$(_c, "Navbar");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./navbar.css":"5b1q4","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"fKeYf"}],"5b1q4":[function() {},{}],"fKeYf":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./navbar.css":"5b1q4","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react-router-dom":"fKeYf","react":"jMk1U","../AuthContext/AuthContext":"dmlI0"}],"5b1q4":[function() {},{}],"fKeYf":[function(require,module,exports,__globalThis) {
 /**
  * react-router-dom v7.7.1
  *
@@ -27099,7 +27144,62 @@ function htmlEscape(str) {
     return str.replace(ESCAPE_REGEX2, (match)=>ESCAPE_LOOKUP2[match]);
 }
 
-},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"kdfEE":[function(require,module,exports,__globalThis) {
+},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"dmlI0":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$d462 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$d462.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$d462.prelude(module);
+
+try {
+// src/context/AuthContext.js
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AuthContext", ()=>AuthContext);
+parcelHelpers.export(exports, "AuthProvider", ()=>AuthProvider);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
+const AuthContext = /*#__PURE__*/ (0, _react.createContext)();
+const AuthProvider = ({ children })=>{
+    _s();
+    const [username, setUsername] = (0, _react.useState)("");
+    (0, _react.useEffect)(()=>{
+        const storedUser = localStorage.getItem("username");
+        if (storedUser) setUsername(storedUser);
+    }, []);
+    const login = (name)=>{
+        setUsername(name);
+        localStorage.setItem("username", name);
+    };
+    const logout = ()=>{
+        setUsername("");
+        localStorage.removeItem("username");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AuthContext.Provider, {
+        value: {
+            username,
+            login,
+            logout
+        },
+        children: children
+    }, void 0, false, {
+        fileName: "src/Components/AuthContext/AuthContext.jsx",
+        lineNumber: 25,
+        columnNumber: 9
+    }, undefined);
+};
+_s(AuthProvider, "l28rGzbSkdZsfBKrYA2sPBHhH7E=");
+_c = AuthProvider;
+var _c;
+$RefreshReg$(_c, "AuthProvider");
+
+  $parcel$ReactRefreshHelpers$d462.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"kdfEE":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$e52c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$e52c.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -27966,19 +28066,33 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>Login);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
 var _reactRouterDom = require("react-router-dom");
+var _authContext = require("../AuthContext/AuthContext");
 var _layout = require("../layout/layout");
 var _layoutDefault = parcelHelpers.interopDefault(_layout);
+var _s = $RefreshSig$();
 function Login() {
+    _s();
+    const [username, setUsername] = (0, _react.useState)("");
+    const [password, setPassword] = (0, _react.useState)("");
+    const navigate = (0, _reactRouterDom.useNavigate)();
+    const { login } = (0, _react.useContext)((0, _authContext.AuthContext));
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        if (username && password) {
+            login(username); // store in context + localStorage
+            alert(`Welcome, ${username}`);
+            navigate("/");
+        }
+    };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _layoutDefault.default), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             style: {
                 textAlign: "center",
-                marginTop: "0px",
                 backgroundImage: "url('https://i.pinimg.com/736x/2a/ba/3d/2aba3dc43cf05af19dd2ec0755e25317.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
-                padding: "0px",
                 borderRadius: "10px",
                 height: "90vh",
                 display: "flex",
@@ -27987,96 +28101,85 @@ function Login() {
                 justifyContent: "center"
             },
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/login",
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    children: "Login Page"
+                }, void 0, false, {
+                    fileName: "src/Components/login/login.jsx",
+                    lineNumber: 37,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    children: "Please enter your credentials to log in"
+                }, void 0, false, {
+                    fileName: "src/Components/login/login.jsx",
+                    lineNumber: 38,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                    onSubmit: handleSubmit,
                     style: {
-                        textDecoration: "none",
-                        color: "black"
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center"
                     },
                     children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "text",
+                            placeholder: "Username",
+                            value: username,
+                            onChange: (e)=>setUsername(e.target.value),
                             style: {
-                                textDecoration: "none",
-                                top: "20%"
-                            },
-                            children: "Login Page"
+                                margin: "30px",
+                                marginBottom: "0px",
+                                padding: "10px",
+                                width: "300px",
+                                borderRadius: "5px",
+                                border: "1px solid #ccc"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/login/login.jsx",
-                            lineNumber: 13,
+                            lineNumber: 44,
                             columnNumber: 21
                         }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "Please enter your credentials to log in"
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                            type: "password",
+                            placeholder: "Password",
+                            value: password,
+                            onChange: (e)=>setPassword(e.target.value),
+                            style: {
+                                margin: "20px",
+                                padding: "10px",
+                                width: "300px",
+                                borderRadius: "5px",
+                                border: "1px solid #ccc"
+                            }
                         }, void 0, false, {
                             fileName: "src/Components/login/login.jsx",
-                            lineNumber: 14,
+                            lineNumber: 51,
                             columnNumber: 21
                         }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            type: "submit",
+                            disabled: !username || !password,
                             style: {
-                                display: "flex",
-                                flexDirection: "column",
-                                alignItems: "center"
+                                margin: "10px",
+                                padding: "10px 20px",
+                                backgroundColor: !username || !password ? "#ccc" : "#4CAF50",
+                                color: "white",
+                                border: "none",
+                                borderRadius: "5px",
+                                cursor: !username || !password ? "not-allowed" : "pointer"
                             },
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "text",
-                                    placeholder: "Username",
-                                    style: {
-                                        margin: "30px",
-                                        marginBottom: "0px",
-                                        padding: "10px",
-                                        width: "300px",
-                                        borderRadius: "5px",
-                                        border: "1px solid #ccc"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "src/Components/login/login.jsx",
-                                    lineNumber: 16,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                    type: "password",
-                                    placeholder: "Password",
-                                    style: {
-                                        margin: "20px",
-                                        padding: "10px",
-                                        width: "300px",
-                                        borderRadius: "5px",
-                                        border: "1px solid #ccc"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "src/Components/login/login.jsx",
-                                    lineNumber: 17,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    type: "submit",
-                                    style: {
-                                        margin: "10px",
-                                        padding: "10px 20px",
-                                        backgroundColor: "#4CAF50",
-                                        color: "white",
-                                        border: "none",
-                                        borderRadius: "5px",
-                                        cursor: "pointer"
-                                    },
-                                    children: "Login"
-                                }, void 0, false, {
-                                    fileName: "src/Components/login/login.jsx",
-                                    lineNumber: 18,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
+                            children: "Login"
+                        }, void 0, false, {
                             fileName: "src/Components/login/login.jsx",
-                            lineNumber: 15,
+                            lineNumber: 58,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/login/login.jsx",
-                    lineNumber: 12,
+                    lineNumber: 40,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28094,27 +28197,32 @@ function Login() {
                             children: "Register here"
                         }, void 0, false, {
                             fileName: "src/Components/login/login.jsx",
-                            lineNumber: 23,
-                            columnNumber: 73
+                            lineNumber: 76,
+                            columnNumber: 44
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/Components/login/login.jsx",
-                    lineNumber: 23,
+                    lineNumber: 75,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/Components/login/login.jsx",
-            lineNumber: 9,
+            lineNumber: 25,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "src/Components/login/login.jsx",
-        lineNumber: 7,
+        lineNumber: 24,
         columnNumber: 9
     }, this);
 }
+_s(Login, "AW9Uw7g/5l8QGdq3+PxHKy3Rl5Q=", false, function() {
+    return [
+        (0, _reactRouterDom.useNavigate)
+    ];
+});
 _c = Login;
 var _c;
 $RefreshReg$(_c, "Login");
@@ -28124,7 +28232,7 @@ $RefreshReg$(_c, "Login");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","../layout/layout":"2heHJ","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"ghAjM":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react-router-dom":"fKeYf","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react":"jMk1U","../AuthContext/AuthContext":"dmlI0","../layout/layout":"2heHJ"}],"ghAjM":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$10e0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$10e0.init();
 var prevRefreshReg = globalThis.$RefreshReg$;

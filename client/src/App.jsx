@@ -10,12 +10,14 @@ import Cart from "./Components/cart/cart";
 import Login from "./Components/login/login";
 import Register from "./Components/register/register";
 import Productpage from "./Components/productdetail/productpage";
+import { AuthProvider } from "./Components/AuthContext/AuthContext";
 
 export default function App()
 {
     return(
         <div>
             <BrowserRouter>
+            <AuthProvider>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/prod" element={< Products/>} />
@@ -23,8 +25,9 @@ export default function App()
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/register" element={<Register/>}/>
-                <Route path="/productpage" element={<Productpage/>}/>
+                <Route path="/productpage" element={<Productpage/>}/> 
             </Routes>
+            </AuthProvider>
             </BrowserRouter>
         </div>
     )
