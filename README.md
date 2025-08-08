@@ -3,6 +3,7 @@
 A modern, responsive e-commerce web application built with **React.js**, **React Router**, and **Bootstrap/Tailwind** (or whichever you used).  
 The app allows users to browse products, add them to a cart, and proceed to checkout.
 
+<!-- Failed to upload "Shopiee - Personal - Microsoft​ Edge 2025-08-08 23-19-55.mp4" -->
 ---
 
 ## 🚀 Features
