@@ -41,7 +41,7 @@ export default function CartPage() {
                                     <img src={item.thumbnail} alt={item.title} width="100" />
                                     <div>
                                         <h4>{item.title}</h4>
-                                        <p>${item.price}</p>
+                                         <p>${item.price}</p>
                                     </div>
                                 </div>
                                 <button onClick={() => handleRemove(index)}
